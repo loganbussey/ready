@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "prepare": "babel src --out-dir dist --plugins=@babel/plugin-transform-modules-commonjs",
+    "prepare": "babel src --out-dir dist --presets=@babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,6 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
-    "@babel/plugin-transform-modules-commonjs": "^7.4.3"
+    "@babel/preset-env": "^7.4.3"
   }
 }

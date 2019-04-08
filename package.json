@@ -1,0 +1,33 @@
+{
+  "name": "@loganbussey/ready",
+  "version": "1.0.0",
+  "description": "async/await version of DOMContentLoaded",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "prepare": "babel src --out-dir dist --plugins=@babel/plugin-transform-modules-commonjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loganbussey/ready.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "DOMContentLoaded",
+    "document",
+    "ready"
+  ],
+  "author": "Luke Bussey <luke@loganbussey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loganbussey/ready/issues"
+  },
+  "homepage": "https://github.com/loganbussey/ready#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.3"
+  }
+}
